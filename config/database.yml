@@ -1,0 +1,30 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: TicketRatings_development
+  pool: 5
+  username: postgres
+  password: password@123
+  port: 5555
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: TicketRatings_test
+  pool: 5
+  username: postgres
+  password: password@123
+  port: 5555
+
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: TicketRatings_production
+  pool: 5
+  username: postgres
+  password: password@123
+  port: 5555

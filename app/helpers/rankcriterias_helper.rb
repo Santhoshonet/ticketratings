@@ -1,0 +1,2 @@
+module RankcriteriasHelper
+end

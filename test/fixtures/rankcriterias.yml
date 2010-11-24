@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  phrase: MyText
+  priorityhigh: false
+
+two:
+  phrase: MyText
+  priorityhigh: false

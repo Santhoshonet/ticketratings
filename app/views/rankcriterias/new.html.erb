@@ -1,0 +1,21 @@
+<h1>New rankcriteria</h1>
+
+<% form_for(@rankcriteria) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :phrase %><br />
+    <%= f.text_area :phrase %>
+  </p>
+  <p>
+    <%= f.label :priorityhigh %><br />
+    <%= f.check_box :priorityhigh %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<br/>
+
+<%= link_to 'Back', rankcriterias_path %>

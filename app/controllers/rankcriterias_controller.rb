@@ -92,16 +92,15 @@ class RankcriteriasController < ApplicationController
           criteria = Rankcriteria.new
           criteria.phrase = key["$"].to_s
           if key["@r"].to_s.downcase == "ant"
-            criteria.priorityhigh=true
+            criteria.priorityhigh = @rankcriteria.priorityhigh? 
           else
-            criteria.priorityhigh=false
+            criteria.priorityhigh = ! @rankcriteria.priorityhigh?
           end
           criteria.save
         end
 
           if @rankcriteria.save
             redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
-            render :xml => @rankcriteria, :status => :created, :location => @rankcriteria
           else
             @result = nil
             redirect_to :action => "index"
@@ -119,7 +118,6 @@ class RankcriteriasController < ApplicationController
       end
         if @rankcriteria.save
           redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
-          render :xml => @rankcriteria, :status => :created, :location => @rankcriteria
         else
           @result = nil
           redirect_to :action => "index"

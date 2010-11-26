@@ -23,3 +23,9 @@
 <br/>
 <br/>
 <%= link_to "View filtered tickets", "rankedtickets" %>  &nbsp;&nbsp;&nbsp; <%= link_to "View tickets" , tickets_path %>
+<br/>
+<br/>
+<br/>
+<%= link_to "Spell Check",:controller => "spellcheck", :action => "spellcheck" %> &nbsp;&nbsp;&nbsp;
+<%= link_to "Synonyms",:controller => "spellcheck", :action => "synonyms" %> &nbsp;&nbsp;&nbsp;
+<%= link_to "Antonyms",:controller => "spellcheck", :action => "antonyms" %>

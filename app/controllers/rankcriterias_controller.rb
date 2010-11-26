@@ -58,6 +58,8 @@ class RankcriteriasController < ApplicationController
   # GET /rankcriterias/new.xml
   def new
     @rankcriteria = Rankcriteria.new
+    @result = nil
+    @wrongword = ''
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @rankcriteria }
@@ -73,14 +75,55 @@ class RankcriteriasController < ApplicationController
   # POST /rankcriterias.xml
   def create
     @rankcriteria = Rankcriteria.new(params[:rankcriteria])
-    respond_to do |format|
-      if @rankcriteria.save
-        format.html { redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.') }
-        format.xml  { render :xml => @rankcriteria, :status => :created, :location => @rankcriteria }
+    spellcheck = Spellcheck.new
+    @wrongword = @rankcriteria.phrase
+    if @rankcriteria.phrase.strip.split(' ').length < 2
+      @result = spellcheck.check_word(@rankcriteria.phrase)
+      unless @result["spellresult"]["c"].nil?
+          #puts @result["spellresult"]["c"]["@l"] #length
+          #puts @result["spellresult"]["c"]["$"]
+          #@result["spellresult"]["c"]["$"] #strings
+          #@result["spellresult"]["c"]["$"].to_s.split(/\t/)
+        render :new
       else
-        format.html { render :action => "new" }
-        format.xml  { render :xml => @rankcriteria.errors, :status => :unprocessable_entity }
+        syn = Antonyms.new
+        result = syn.get_antonyms(@rankcriteria.phrase)
+        result["words"]["w"].each do |key|
+          criteria = Rankcriteria.new
+          criteria.phrase = key["$"].to_s
+          if key["@r"].to_s.downcase == "ant"
+            criteria.priorityhigh=true
+          else
+            criteria.priorityhigh=false
+          end
+          criteria.save
+        end
+
+          if @rankcriteria.save
+            redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
+            render :xml => @rankcriteria, :status => :created, :location => @rankcriteria
+          else
+            @result = nil
+            redirect_to :action => "index"
+          end
       end
+    else
+      @rankcriteria.phrase.split(' ').each do |word|
+        @result = spellcheck.check_word(word)
+         unless @result["spellresult"]["c"].nil?
+            #@result["spellresult"]["c"]["$"].to_s.split(/\t/)
+            @wrongword = word
+            render :new
+            return
+        end
+      end
+        if @rankcriteria.save
+          redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
+          render :xml => @rankcriteria, :status => :created, :location => @rankcriteria
+        else
+          @result = nil
+          redirect_to :action => "index"
+        end
     end
   end
 

@@ -1,0 +1,12 @@
+
+<% form_tag(:controller => "spellcheck",:action => "spellcheck") do |f| %>
+
+  <h3>Input some text to check spelling</h3>
+  <input type="text" name="text"  />
+  <br />
+  <br />
+  <input type="submit" value="Check" />
+
+<% end %>
+
+<%= debug(@result) %>

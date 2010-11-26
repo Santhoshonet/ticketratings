@@ -3,9 +3,10 @@ class CreateRankcriterias < ActiveRecord::Migration
     create_table :rankcriterias do |t|
       t.text :phrase
       t.boolean :priorityhigh
-
       t.timestamps
+      
     end
+    add_index("rankcriterias","phrase")
   end
 
   def self.down

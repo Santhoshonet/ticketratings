@@ -1,0 +1,11 @@
+<% form_tag(:controller => "spellcheck",:action => "synonyms") do |f| %>
+
+  <h3>Input a word for synonyms</h3>
+  <input type="text" name="text"  />
+  <br />
+  <br />
+  <input type="submit" value="Check" />
+
+<% end %>
+
+<%= debug(@result) %>

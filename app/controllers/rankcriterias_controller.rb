@@ -92,9 +92,9 @@ class RankcriteriasController < ApplicationController
           criteria = Rankcriteria.new
           criteria.phrase = key["$"].to_s
           if key["@r"].to_s.downcase == "ant"
-            criteria.priorityhigh = @rankcriteria.priorityhigh? 
-          else
             criteria.priorityhigh = ! @rankcriteria.priorityhigh?
+          else
+            criteria.priorityhigh =  @rankcriteria.priorityhigh?
           end
           criteria.save
         end

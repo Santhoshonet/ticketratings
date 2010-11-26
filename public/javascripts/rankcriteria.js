@@ -10,6 +10,6 @@ $(function () {
             backgroundColor: 'White'
         });
     }).click(function() {
-       $('input[type="text"]').val($(this).html().trim());        
+       $('input[type="text"]').val($(this).html());
     });
 });

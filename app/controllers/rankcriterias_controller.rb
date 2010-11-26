@@ -88,6 +88,7 @@ class RankcriteriasController < ApplicationController
       else
         syn = Antonyms.new
         result = syn.get_antonyms(@rankcriteria.phrase)
+        unless result["words"].nil?
         result["words"]["w"].each do |key|
           criteria = Rankcriteria.new
           criteria.phrase = key["$"].to_s
@@ -98,7 +99,7 @@ class RankcriteriasController < ApplicationController
           end
           criteria.save
         end
-
+       end
           if @rankcriteria.save
             redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
           else

@@ -12082,3 +12082,874 @@ Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 19:14:41) 
 Rendering template within layouts/rankcriterias
 Rendering rankcriterias/index
 Completed in 141ms (View: 130, DB: 3) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:00:16) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 6456ms (View: 6445, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:00:29) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:00:34) [POST]
+  Parameters: {"authenticity_token"=>"GGRlSMqNfg5h/lYN3+//Twq2sGl0QhOylVX25wHS7IU=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1663ms (View: 9, DB: 0) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:01:00) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 138ms (View: 127, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:01:04) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:01:09) [POST]
+  Parameters: {"authenticity_token"=>"j+3wM3gdfpHGO4z6hyHRS/xIxULcBSdK/GjeiemcKvc=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1468ms (View: 10, DB: 1) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:01:30) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 189ms (View: 178, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:01:34) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:01:39) [POST]
+  Parameters: {"authenticity_token"=>"hLXwGMnIzfnFYj4v7OKKZOxNTZqGPmqO+8wcrYbCjpM=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1437ms (View: 10, DB: 0) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:01:54) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 139ms (View: 128, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:01:59) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:02:03) [POST]
+  Parameters: {"authenticity_token"=>"8rNMNLm3QIyD07qk4rPYAA2TWopurOjfqpAU6PQPLnk=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1543ms (View: 10, DB: 0) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:02:12) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 143ms (View: 131, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:02:17) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 140ms (View: 128, DB: 2) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:02:22) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:02:26) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1495ms (View: 10, DB: 1) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:03:40) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}, "commit"=>"Create"}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1487ms (View: 9, DB: 0) | 200 OK [http://localhost/rankcriterias]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:03:45) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/rankcriterias/new]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:05:50) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 147ms (View: 136, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:05:53) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:05:56) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"lika", "priorityhigh"=>"0"}}
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 1585ms (View: 9, DB: 2) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:06:06) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:91:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:06:51) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:92:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:07:21) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:92:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (107.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:08:16) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:92:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:08:49) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:93:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:09:30) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:92:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:09:59) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/rankcriterias_controller.rb:91:in `create'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:10:19) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like ", "priorityhigh"=>"0"}, "commit"=>"Create"}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'like ') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('like ', 'f', '2010-11-26 14:40:22.073344', '2010-11-26 14:40:22.073344') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/rankcriterias/162
+Completed in 2647ms (DB: 2) | 302 Found [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#show (for 127.0.0.1 at 2010-11-26 20:10:22) [GET]
+  Parameters: {"id"=>"162"}
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT * FROM "rankcriterias" WHERE ("rankcriterias"."id" = 162) [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/show
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/rankcriterias/162]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:10:24) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 192ms (View: 181, DB: 2) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:11:08) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:11:17) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"like", "priorityhigh"=>"0"}, "commit"=>"Create"}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'similar') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'same') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'comparable') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'corresponding') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'alike') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'equal') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'equivalent') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unalike') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unlike') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'same') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'same') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'like-minded') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'look-alike') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'suchlike') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'the like') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'the likes of') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'ilk') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'form') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'kind') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'sort') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'variety') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'wish') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'care') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'consider') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'desire') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'reckon') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'regard') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'see') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'view') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'want') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'dislike') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'like') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/rankcriterias
+Completed in 2385ms (DB: 23) | 302 Found [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:11:20) [GET]
+  [4;35;1mRankcriteria Load (2.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 188ms (View: 178, DB: 3) | 200 OK [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#new (for 127.0.0.1 at 2010-11-26 20:12:24) [GET]
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/rankcriterias/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#create (for 127.0.0.1 at 2010-11-26 20:12:37) [POST]
+  Parameters: {"authenticity_token"=>"uwfU2zFh8wrG+ROziZJ+cly0RtgkK5H40NVFjDmbSUk=", "rankcriteria"=>{"phrase"=>"bad", "priorityhigh"=>"1"}, "commit"=>"Create"}
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'big') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('big', 't', '2010-11-26 14:42:40.302249', '2010-11-26 14:42:40.302249') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'tough') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('tough', 't', '2010-11-26 14:42:40.309249', '2010-11-26 14:42:40.309249') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'spoiled') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('spoiled', 't', '2010-11-26 14:42:40.312250', '2010-11-26 14:42:40.312250') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'spoilt') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('spoilt', 't', '2010-11-26 14:42:40.314250', '2010-11-26 14:42:40.314250') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'regretful') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('regretful', 't', '2010-11-26 14:42:40.317250', '2010-11-26 14:42:40.317250') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'sorry') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('sorry', 't', '2010-11-26 14:42:40.319250', '2010-11-26 14:42:40.319250') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'uncollectible') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('uncollectible', 't', '2010-11-26 14:42:40.322250', '2010-11-26 14:42:40.322250') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'risky') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('risky', 't', '2010-11-26 14:42:40.325250', '2010-11-26 14:42:40.325250') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'high-risk') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('high-risk', 't', '2010-11-26 14:42:40.328251', '2010-11-26 14:42:40.328251') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'speculative') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('speculative', 't', '2010-11-26 14:42:40.330251', '2010-11-26 14:42:40.330251') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unfit') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unfit', 't', '2010-11-26 14:42:40.333251', '2010-11-26 14:42:40.333251') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unsound') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unsound', 't', '2010-11-26 14:42:40.335251', '2010-11-26 14:42:40.335251') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'forged') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('forged', 't', '2010-11-26 14:42:40.338251', '2010-11-26 14:42:40.338251') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'defective') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('defective', 't', '2010-11-26 14:42:40.341251', '2010-11-26 14:42:40.341251') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'immoral') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('immoral', 't', '2010-11-26 14:42:40.344251', '2010-11-26 14:42:40.344251') RETURNING "id"[0m
+  [4;35;1mSQL (11.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'good') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unregretful') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unregretful', 'f', '2010-11-26 14:42:40.358252', '2010-11-26 14:42:40.358252') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'disobedient') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('disobedient', 't', '2010-11-26 14:42:40.361252', '2010-11-26 14:42:40.361252') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'evil') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'penitent') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('penitent', 't', '2010-11-26 14:42:40.364253', '2010-11-26 14:42:40.364253') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'repentant') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('repentant', 't', '2010-11-26 14:42:40.367253', '2010-11-26 14:42:40.367253') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unfavorable') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unfavorable', 't', '2010-11-26 14:42:40.370253', '2010-11-26 14:42:40.370253') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unfavourable') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unfavourable', 't', '2010-11-26 14:42:40.373253', '2010-11-26 14:42:40.373253') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'worse') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('worse', 't', '2010-11-26 14:42:40.376253', '2010-11-26 14:42:40.376253') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'worst') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('worst', 't', '2010-11-26 14:42:40.378253', '2010-11-26 14:42:40.378253') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'tough') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'sorry') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unsound') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'abominable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('abominable', 't', '2010-11-26 14:42:40.386254', '2010-11-26 14:42:40.386254') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'atrocious') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('atrocious', 't', '2010-11-26 14:42:40.388254', '2010-11-26 14:42:40.388254') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'awful') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('awful', 't', '2010-11-26 14:42:40.391254', '2010-11-26 14:42:40.391254') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'corked') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('corked', 't', '2010-11-26 14:42:40.393254', '2010-11-26 14:42:40.393254') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'corky') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('corky', 't', '2010-11-26 14:42:40.396254', '2010-11-26 14:42:40.396254') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'counterfeit') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('counterfeit', 't', '2010-11-26 14:42:40.399255', '2010-11-26 14:42:40.399255') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'crappy') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('crappy', 't', '2010-11-26 14:42:40.402255', '2010-11-26 14:42:40.402255') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'deplorable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('deplorable', 't', '2010-11-26 14:42:40.405255', '2010-11-26 14:42:40.405255') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'distressing') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('distressing', 't', '2010-11-26 14:42:40.407255', '2010-11-26 14:42:40.407255') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'dreadful') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('dreadful', 't', '2010-11-26 14:42:40.410255', '2010-11-26 14:42:40.410255') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'evil') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'fearful') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('fearful', 't', '2010-11-26 14:42:40.415255', '2010-11-26 14:42:40.415255') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'frightful') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('frightful', 't', '2010-11-26 14:42:40.417256', '2010-11-26 14:42:40.417256') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'hard') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('hard', 't', '2010-11-26 14:42:40.420256', '2010-11-26 14:42:40.420256') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'harmful') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('harmful', 't', '2010-11-26 14:42:40.423256', '2010-11-26 14:42:40.423256') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'hopeless') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('hopeless', 't', '2010-11-26 14:42:40.425256', '2010-11-26 14:42:40.425256') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'horrid') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('horrid', 't', '2010-11-26 14:42:40.428256', '2010-11-26 14:42:40.428256') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'icky') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('icky', 't', '2010-11-26 14:42:40.431256', '2010-11-26 14:42:40.431256') RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'ill') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'imitative') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('imitative', 't', '2010-11-26 14:42:40.435257', '2010-11-26 14:42:40.435257') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'incompetent') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('incompetent', 't', '2010-11-26 14:42:40.438257', '2010-11-26 14:42:40.438257') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'inferior') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('inferior', 't', '2010-11-26 14:42:40.440257', '2010-11-26 14:42:40.440257') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'intense') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('intense', 't', '2010-11-26 14:42:40.443257', '2010-11-26 14:42:40.443257') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'invalid') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('invalid', 't', '2010-11-26 14:42:40.446257', '2010-11-26 14:42:40.446257') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'lamentable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('lamentable', 't', '2010-11-26 14:42:40.449257', '2010-11-26 14:42:40.449257') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'lousy') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('lousy', 't', '2010-11-26 14:42:40.452258', '2010-11-26 14:42:40.452258') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'malfunctioning') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('malfunctioning', 't', '2010-11-26 14:42:40.454258', '2010-11-26 14:42:40.454258') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'mediocre') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('mediocre', 't', '2010-11-26 14:42:40.456258', '2010-11-26 14:42:40.456258') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'mischievous') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('mischievous', 't', '2010-11-26 14:42:40.459258', '2010-11-26 14:42:40.459258') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'naughty') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('naughty', 't', '2010-11-26 14:42:40.461258', '2010-11-26 14:42:40.461258') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'negative') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('negative', 't', '2010-11-26 14:42:40.465258', '2010-11-26 14:42:40.465258') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'no-good') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('no-good', 't', '2010-11-26 14:42:40.467258', '2010-11-26 14:42:40.467258') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'nonfunctional') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('nonfunctional', 't', '2010-11-26 14:42:40.469259', '2010-11-26 14:42:40.469259') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'nonstandard') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('nonstandard', 't', '2010-11-26 14:42:40.472259', '2010-11-26 14:42:40.472259') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'painful') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('painful', 't', '2010-11-26 14:42:40.475259', '2010-11-26 14:42:40.475259') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'pitiful') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('pitiful', 't', '2010-11-26 14:42:40.478259', '2010-11-26 14:42:40.478259') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'poor') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('poor', 't', '2010-11-26 14:42:40.480259', '2010-11-26 14:42:40.480259') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'pretty') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('pretty', 't', '2010-11-26 14:42:40.482259', '2010-11-26 14:42:40.482259') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'rotten') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('rotten', 't', '2010-11-26 14:42:40.485259', '2010-11-26 14:42:40.485259') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'rubber') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('rubber', 't', '2010-11-26 14:42:40.487260', '2010-11-26 14:42:40.487260') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'sad') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('sad', 't', '2010-11-26 14:42:40.490260', '2010-11-26 14:42:40.490260') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'severe') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('severe', 't', '2010-11-26 14:42:40.493260', '2010-11-26 14:42:40.493260') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'stale') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('stale', 't', '2010-11-26 14:42:40.495260', '2010-11-26 14:42:40.495260') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'stinking') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('stinking', 't', '2010-11-26 14:42:40.498260', '2010-11-26 14:42:40.498260') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'stinky') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('stinky', 't', '2010-11-26 14:42:40.500260', '2010-11-26 14:42:40.500260') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'swingeing') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('swingeing', 't', '2010-11-26 14:42:40.503261', '2010-11-26 14:42:40.503261') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'terrible') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('terrible', 't', '2010-11-26 14:42:40.506261', '2010-11-26 14:42:40.506261') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'uncomfortable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('uncomfortable', 't', '2010-11-26 14:42:40.509261', '2010-11-26 14:42:40.509261') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'uncool') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('uncool', 't', '2010-11-26 14:42:40.512261', '2010-11-26 14:42:40.512261') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unfavorable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unfavourable') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unhealthy') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unhealthy', 't', '2010-11-26 14:42:40.517261', '2010-11-26 14:42:40.517261') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unskilled') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unskilled', 't', '2010-11-26 14:42:40.520261', '2010-11-26 14:42:40.520261') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unspeakable') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unspeakable', 't', '2010-11-26 14:42:40.523262', '2010-11-26 14:42:40.523262') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'unsuitable') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('unsuitable', 't', '2010-11-26 14:42:40.526262', '2010-11-26 14:42:40.526262') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'badly') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "rankcriterias" ("phrase", "priorityhigh", "created_at", "updated_at") VALUES('badly', 't', '2010-11-26 14:42:40.528262', '2010-11-26 14:42:40.528262') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'badness') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (1.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'quality') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (0.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'good') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRankcriteria Load (0.0ms)[0m   [0mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'goodness') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRankcriteria Load (1.0ms)[0m   [0;1mSELECT "rankcriterias".id FROM "rankcriterias" WHERE ("rankcriterias"."phrase" = 'bad') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/rankcriterias
+Completed in 3116ms (DB: 93) | 302 Found [http://localhost/rankcriterias]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RankcriteriasController#index (for 127.0.0.1 at 2010-11-26 20:12:40) [GET]
+  [4;35;1mRankcriteria Load (3.0ms)[0m   [0mSELECT * FROM "rankcriterias" [0m
+Rendering template within layouts/rankcriterias
+Rendering rankcriterias/index
+Completed in 244ms (View: 232, DB: 4) | 200 OK [http://localhost/rankcriterias]

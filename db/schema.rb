@@ -9,7 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101130054951) do
+ActiveRecord::Schema.define(:version => 20101203054243) do
+
+  create_table "alternatephrases", :force => true do |t|
+    t.string   "word"
+    t.string   "equalto"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "ignorephrases", :force => true do |t|
     t.string   "phrase"
@@ -30,6 +37,8 @@ ActiveRecord::Schema.define(:version => 20101130054951) do
     t.datetime "updated_at"
     t.boolean  "isantonymprocessed", :default => false
   end
+
+  add_index "rankcriterias", ["phrase"], :name => "index_rankcriterias_on_phrase"
 
   create_table "tickets", :force => true do |t|
     t.string   "title"

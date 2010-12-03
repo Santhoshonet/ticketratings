@@ -41,6 +41,14 @@ class RankcriteriasController < ApplicationController
   def create
     @rankcriteria = Rankcriteria.new(params[:rankcriteria])
     spellcheck = Spellcheck.new
+    @alternatewords = Alternatephrase.find(:all)
+
+    @rankcriteria.phrase = @rankcriteria.phrase.downcase
+    @alternatewords.each do |alternateword|
+      @rankcriteria.phrase = @rankcriteria.phrase.sub(alternateword.word + ' ',alternateword.equalto+ ' ')
+      @rankcriteria.phrase = @rankcriteria.phrase.sub(' ' + alternateword.word, ' ' + alternateword.equalto)
+    end
+    
     @wrongword = @rankcriteria.phrase
     if @rankcriteria.phrase.strip.split(' ').length < 2
       @result = spellcheck.check_word(@rankcriteria.phrase)
@@ -67,7 +75,7 @@ class RankcriteriasController < ApplicationController
         end
         @rankcriteria.isantonymprocessed=false
         if @rankcriteria.save
-          redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
+          redirect_to(:action => "index", :notice => 'Rankcriteria was successfully created.')
         else
           @result = nil
           redirect_to :action => "index"
@@ -85,7 +93,7 @@ class RankcriteriasController < ApplicationController
       end
       @rankcriteria.isantonymprocessed = false
       if @rankcriteria.save
-        redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully created.')
+        redirect_to(:action => "index", :notice => 'Rankcriteria was successfully created.')
       else
         @result = nil
         redirect_to :action => "index"
@@ -98,7 +106,7 @@ class RankcriteriasController < ApplicationController
     @rankcriteria = Rankcriteria.find(params[:id])
     respond_to do |format|
       if @rankcriteria.update_attributes(params[:rankcriteria])
-        format.html { redirect_to(@rankcriteria, :notice => 'Rankcriteria was successfully updated.') }
+        format.html { redirect_to(:action => "index", :notice => 'Rankcriteria was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -138,7 +146,7 @@ class RankcriteriasController < ApplicationController
     @tickets = Ticket.find(:all)
     @notoperators = Notoperator.find(:all)
     @ignorewords = Ignorephrase.find(:all)
-
+    @alternatewords = Alternatephrase.find(:all)
     @tickets.each do |tkt|
       #----------title checking------------
       title = tkt.title.to_s.strip.downcase
@@ -211,7 +219,7 @@ def processranks(title,tkt)
     end
   end
 
-
+  # phrase matching for all the combinations of words
   title.split(".").each do |txt|
     txt.to_s.split(',').each do |text|
         arrayofwords = []
@@ -264,58 +272,80 @@ def processranks(title,tkt)
 =end
       end
     end
-
+   
  end
 
 def phrasematching(text,tkt)
   
   isdontfollows = false
   ispositiverank = true
-  
-    #-------------- Phrase Matching Operation Starts here-----------------
-
-    #-------------- Ignoring unnecessary words, Starts here-----------------
-    @ignorewords.each do |ignoreword|
-      text = text.to_s.chomp(ignoreword.phrase)
-    end
 
     if matchword(text,tkt)
        return
     end
-
-    #-------------- Word Matching Operation Starts here-----------------
-    text.to_s.split(" ").each do |word|
-      #-----not operators-----
-      notoperator = ''
-      @notoperators.each do |operator|
-        if word.to_s.strip.casecmp(operator.operator) == 0
-          notoperator = operator.operator
-          break
-        end
-      end
-      if notoperator != ''
-        isdontfollows = true
-        next
-      elsif isdontfollows == true
-        ispositiverank = false
-      else
-        ispositiverank = true
-      end
-      #-----Word-----
-      rankcriteria = Rankcriteria.find(:all, :conditions => "phrase = '#{word}'")
-      if rankcriteria.count() > 0
-        if (ispositiverank and rankcriteria[0].priorityhigh) or (not ispositiverank and not rankcriteria[0].priorityhigh)
-          tkt.rank += 1
-        elsif (not ispositiverank and rankcriteria[0].priorityhigh) or (ispositiverank and not rankcriteria[0].priorityhigh)
-          #tkt.rank -= 1
-        end
-        tkt.save
-      end
-      isdontfollows = false
+  
+    @alternatewords.each do |alternatephrase|
+      text = text.to_s.sub(alternatephrase.word + ' ',alternatephrase.equalto + ' ')
+      text = text.to_s.sub(' ' + alternatephrase.word,' ' + alternatephrase.equalto)
     end
+
+    #-------------- Phrase Matching Operation Starts here-----------------
+
+    #-------------- Ignoring unnecessary words, Starts here-----------------
+    @ignorewords.each do |ignoreword|
+
+      if matchword(text,tkt)
+        return
+      end
+
+      exitcounter = 0
+      while exitcounter < 2
+
+          #-------------- Word Matching Operation Starts here-----------------
+          text.to_s.split(" ").each do |word|
+            #-----not operators-----
+            notoperator = ''
+            @notoperators.each do |operator|
+              if word.to_s.strip.casecmp(operator.operator) == 0
+                notoperator = operator.operator
+                break
+              end
+            end
+            if notoperator != ''
+              isdontfollows = true
+              next
+            elsif isdontfollows == true
+              ispositiverank = false
+            else
+              ispositiverank = true
+            end
+            #-----Word-----
+            rankcriteria = Rankcriteria.find(:all, :conditions => "phrase = '#{word}'")
+            if rankcriteria.count() > 0
+              if (ispositiverank and rankcriteria[0].priorityhigh) or (not ispositiverank and not rankcriteria[0].priorityhigh)
+                tkt.rank += 1
+              elsif (not ispositiverank and rankcriteria[0].priorityhigh) or (ispositiverank and not rankcriteria[0].priorityhigh)
+                #tkt.rank -= 1
+              end
+              tkt.save
+            end
+            isdontfollows = false
+          end
+        
+          text = text.to_s.chomp(ignoreword.phrase)
+          exitcounter += 1
+
+          matchword(text,tkt)
+
+      end
+
+    end
+  
 end
 
 def matchword(word,tkt)
+
+  word = word.to_s.downcase
 
   rankcriteria = Rankcriteria.find(:all, :conditions => "phrase = '#{word}'")
   if rankcriteria.count() > 0

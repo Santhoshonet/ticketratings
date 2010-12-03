@@ -1,4 +1,5 @@
 require "mail"
+
 class CloundmailinController < ApplicationController
 
   def index

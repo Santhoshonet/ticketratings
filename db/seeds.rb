@@ -1,7 +1,22 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#   
-#   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
-#   Major.create(:name => 'Daley', :city => cities.first)
+operators = ['doesnt','doesn\'t','don\'t','dont','n\'t','not','do not','does not']
+
+operators.each do |word|
+
+  notoperator = Notoperator.new
+  notoperator.operator = word
+  notoperator.save
+
+end
+
+
+ignorephases = ['this','those','there','is','was','are','were','it','he','she']
+
+ignorephases.each do |word|
+
+  ignorephrase =  Ignorephrase.new
+  ignorephrase.phrase = word
+  ignorephrase.save
+  
+end
+
+

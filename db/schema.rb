@@ -9,13 +9,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101123062443) do
+ActiveRecord::Schema.define(:version => 20101130054951) do
+
+  create_table "ignorephrases", :force => true do |t|
+    t.string   "phrase"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "notoperators", :force => true do |t|
+    t.string   "operator"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "rankcriterias", :force => true do |t|
     t.text     "phrase"
     t.boolean  "priorityhigh"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "isantonymprocessed", :default => false
   end
 
   create_table "tickets", :force => true do |t|

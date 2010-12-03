@@ -5,7 +5,7 @@ class RankcriteriasController < ApplicationController
   end
 
   def index
-    @rankcriterias = Rankcriteria.find(:all, :order => "phrase")
+   @rankcriterias = Rankcriteria.find(:all, :order => "phrase",:limit => 20)
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @rankcriterias }

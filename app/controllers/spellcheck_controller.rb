@@ -19,11 +19,9 @@ class SpellcheckController < ApplicationController
      syn = Antonyms.new
      @result = syn.get_antonyms(id)
        @result["words"]["w"].each do |key|
-         if key["@r"].to_s.downcase == "ant"
-           
-         else
-            puts key
-         end
+         #if key["@r"].to_s.downcase == "ant"
+         #else
+         #end
       end
     end
   end

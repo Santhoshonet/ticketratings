@@ -19,7 +19,13 @@
 </table>
 <br />
 <br />
+<%= link_to 'New ticket', new_ticket_path %>
+<br/>
+<br/>
+<%= link_to "View filtered tickets", "showrankedtickets" %> &nbsp;&nbsp;&nbsp; <%= link_to "View rank criteria", rankcriterias_path %>
 <br />
-<%= link_to 'New ticket', new_ticket_path %>  &nbsp;&nbsp;&nbsp; <%= link_to "View rank criteria", rankcriterias_path %>
-
+<br />
+<%= link_to "Spell Check",:controller => "spellcheck", :action => "spellcheck" %> &nbsp;&nbsp;&nbsp;
+<%= link_to "Synonyms",:controller => "spellcheck", :action => "synonyms" %> &nbsp;&nbsp;&nbsp;
+<%= link_to "Antonyms",:controller => "spellcheck", :action => "antonyms" %>
 

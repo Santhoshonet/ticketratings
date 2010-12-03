@@ -219,6 +219,11 @@ def processranks(title,tkt)
     end
   end
 
+   @alternatewords.each do |alternatephrase|
+      title = title.to_s.sub(alternatephrase.word + ' ',alternatephrase.equalto + ' ')
+      title = title.to_s.sub(' ' + alternatephrase.word,' ' + alternatephrase.equalto)
+    end
+
   # phrase matching for all the combinations of words
   title.split(".").each do |txt|
     txt.to_s.split(',').each do |text|
@@ -280,10 +285,6 @@ def phrasematching(text,tkt)
   isdontfollows = false
   ispositiverank = true
 
-    if matchword(text,tkt)
-       return
-    end
-  
     @alternatewords.each do |alternatephrase|
       text = text.to_s.sub(alternatephrase.word + ' ',alternatephrase.equalto + ' ')
       text = text.to_s.sub(' ' + alternatephrase.word,' ' + alternatephrase.equalto)
@@ -291,17 +292,7 @@ def phrasematching(text,tkt)
 
     #-------------- Phrase Matching Operation Starts here-----------------
 
-    #-------------- Ignoring unnecessary words, Starts here-----------------
-    @ignorewords.each do |ignoreword|
-
-      if matchword(text,tkt)
-        return
-      end
-
-      exitcounter = 0
-      while exitcounter < 2
-
-          #-------------- Word Matching Operation Starts here-----------------
+    #-------------- Word Matching Operation Starts here-----------------
           text.to_s.split(" ").each do |word|
             #-----not operators-----
             notoperator = ''
@@ -331,11 +322,60 @@ def phrasematching(text,tkt)
             end
             isdontfollows = false
           end
-        
+
+
+    #-------------- Ignoring unnecessary words, Starts here-----------------
+    isitfirsttime = true
+    @ignorewords.each do |ignoreword|
+
+      unless text[ignoreword.phrase].nil?
+
+        if matchword(text,tkt)
+          return
+        end
+
+        exitcounter = 0
+        while exitcounter < 2
+
+          unless isitfirsttime
+            #-------------- Word Matching Operation Starts here-----------------
+            text.to_s.split(" ").each do |word|
+              #-----not operators-----
+              notoperator = ''
+              @notoperators.each do |operator|
+                if word.to_s.strip.casecmp(operator.operator) == 0
+                  notoperator = operator.operator
+                  break
+                end
+              end
+              if notoperator != ''
+                isdontfollows = true
+                next
+              elsif isdontfollows == true
+                ispositiverank = false
+              else
+                ispositiverank = true
+              end
+              #-----Word-----
+              rankcriteria = Rankcriteria.find(:all, :conditions => "phrase = '#{word}'")
+              if rankcriteria.count() > 0
+                if (ispositiverank and rankcriteria[0].priorityhigh) or (not ispositiverank and not rankcriteria[0].priorityhigh)
+                  tkt.rank += 1
+                elsif (not ispositiverank and rankcriteria[0].priorityhigh) or (ispositiverank and not rankcriteria[0].priorityhigh)
+                  #tkt.rank -= 1
+                end
+                tkt.save
+              end
+              isdontfollows = false
+            end
+          end
+
+          isitfirsttime = false
           text = text.to_s.chomp(ignoreword.phrase)
           exitcounter += 1
-
           matchword(text,tkt)
+
+        end
 
       end
 
@@ -346,7 +386,7 @@ end
 def matchword(word,tkt)
 
   word = word.to_s.downcase
-
+  
   rankcriteria = Rankcriteria.find(:all, :conditions => "phrase = '#{word}'")
   if rankcriteria.count() > 0
     tkt.rank += 1
